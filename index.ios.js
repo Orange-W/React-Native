@@ -1,45 +1,11 @@
 'use strict';
 
-// iOS 设备 Size
-import './Interface/Styles/GlobalStyles/Global_DeviceIOS.styles.js';
+// iOS
+import './Interface/Common/Global/Global_Path.js'; // 全局路径
+import './Interface/Common/Global/Global_DeviceSizeIOS.js';
 
 
-import React,{Component} from 'react';
-import {
-  AppRegistry,
-  StyleSheet,
-  Navigator,
-  NavigatorIOS,
-  Text,
-  View
-} from 'react-native';
-
-
-var RootView = require('./Interface/RootView');
-
-class EasyLifeRootVC extends React.Component {
-  renderScene = (route,navigator) => {
-    const RootComponent = route.component;
-    return (<RootComponent navigator={navigator} route={route} />);
-  }
-
-  render() {
-    return (
-      <Navigator
-        style={styles.container}
-        initialRoute={{title: 'EasyLifeRootVC', index: 0,component: RootView}}
-        renderScene={this.renderScene}
-      />
-    );
-  }
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#FFFFFF',
-  },
-});
-
-// 整体js模块的名称
+import EasyLifeRootVC from './Interface/Moudles/Main.js';
+const { AppRegistry } = require('react-native');
+// getPath();
 AppRegistry.registerComponent('EasyLifeRootVC', () => EasyLifeRootVC);

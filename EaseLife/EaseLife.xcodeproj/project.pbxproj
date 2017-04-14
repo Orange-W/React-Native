@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05787BD287914A62B39197EF /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E219307C5FF943879D2625D9 /* MaterialIcons.ttf */; };
+		464C5387073D4837B6FAEEE8 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EBB44D98D424B3CB48A6977 /* MaterialCommunityIcons.ttf */; };
 		46607237F647C5478C8FBB93 /* libPods-EaseLifeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB32841ACBD4C3647952385 /* libPods-EaseLifeUITests.a */; };
+		48C16A2F02CF48138432D0A0 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA15073CA3F94E7FBB63CB53 /* SimpleLineIcons.ttf */; };
+		5FCF5BCB076644288AFFB147 /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0F6D89E8404245B2E76354 /* libRNVectorIcons.a */; };
+		728B0D8C34504C40A7792210 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 167F40C35C5047A9B263B76E /* Entypo.ttf */; };
+		8221EB9E50C543108413D8D0 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B7BE55839DD242CAAEE869A6 /* libc++.tbd */; };
+		89C7C0E8F62E4C1B9EF43513 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4448CB78C44439E94AFDB51 /* FontAwesome.ttf */; };
+		919ECF8E57D84369816C6146 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02E4D7D8FB434BC9B7A4A225 /* Ionicons.ttf */; };
+		91D5339BFFA14B1C9F7C5912 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F34F32D324D42B590240469 /* Zocial.ttf */; };
+		9F45F58246DC4BC0B400CBB7 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6BD7C6852D91402FBEEE202D /* EvilIcons.ttf */; };
 		B537C4A61E8BD87300695D21 /* TestApi.html in Resources */ = {isa = PBXBuildFile; fileRef = B537C4A51E8BD87300695D21 /* TestApi.html */; };
 		B58FA7721E83B227001EAFF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B58FA7711E83B227001EAFF2 /* main.m */; };
 		B58FA7751E83B227001EAFF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B58FA7741E83B227001EAFF2 /* AppDelegate.m */; };
@@ -17,11 +27,29 @@
 		B58FA7801E83B228001EAFF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58FA77E1E83B228001EAFF2 /* LaunchScreen.storyboard */; };
 		B58FA78B1E83B228001EAFF2 /* EaseLifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B58FA78A1E83B228001EAFF2 /* EaseLifeTests.m */; };
 		B58FA7961E83B228001EAFF2 /* EaseLifeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B58FA7951E83B228001EAFF2 /* EaseLifeUITests.m */; };
+		B86B0BC642F0482DB6B1E104 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F0CCA6AEE284FAB950ABF70 /* Foundation.ttf */; };
+		CAC9D103D3004D20B453981C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE5C88A5E924CEA8A2731E7 /* libz.tbd */; };
 		DB4E8E81C3632E80F7700B19 /* libPods-EaseLifeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E18BD6E5135E1484C864A6 /* libPods-EaseLifeTests.a */; };
 		DCE1319379A5DBCE478DABC0 /* libPods-EaseLife.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1D0DBDBA6A344557B0A869 /* libPods-EaseLife.a */; };
+		EC62B0D4795E422680CDA5F1 /* libRealmReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 870D38B1D2A94FC0A30C7523 /* libRealmReact.a */; };
+		FE068327C1914A2E99A186ED /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07B8D4A91503400C8D8F5A04 /* Octicons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		B50549231E9F70B40048CDC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F01D582772524C4698D518C7 /* RNVectorIcons.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5DBEB1501B18CEA900B34395;
+			remoteInfo = RNVectorIcons;
+		};
+		B505492C1E9FA7EA0048CDC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 812889F45EE14EE7AF332B38 /* RealmReact.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F60690131CA2766F0003FB26;
+			remoteInfo = RealmReact;
+		};
 		B58FA7871E83B228001EAFF2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B58FA7651E83B227001EAFF2 /* Project object */;
@@ -39,11 +67,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02E4D7D8FB434BC9B7A4A225 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		07B8D4A91503400C8D8F5A04 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		0E4B3054596FEF9117A92F2E /* Pods-EaseLifeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaseLifeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EaseLifeUITests/Pods-EaseLifeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		167F40C35C5047A9B263B76E /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		4E1D0DBDBA6A344557B0A869 /* libPods-EaseLife.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EaseLife.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB32841ACBD4C3647952385 /* libPods-EaseLifeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EaseLifeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F34F32D324D42B590240469 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		6BD7C6852D91402FBEEE202D /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		6F0CCA6AEE284FAB950ABF70 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		812889F45EE14EE7AF332B38 /* RealmReact.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RealmReact.xcodeproj; path = "../node_modules/realm/react-native/ios/RealmReact.xcodeproj"; sourceTree = "<group>"; };
 		85E80B88043E62C2EC3D9AD7 /* Pods-EaseLifeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaseLifeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EaseLifeUITests/Pods-EaseLifeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		86E18BD6E5135E1484C864A6 /* libPods-EaseLifeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EaseLifeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		870D38B1D2A94FC0A30C7523 /* libRealmReact.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRealmReact.a; sourceTree = "<group>"; };
+		8EBB44D98D424B3CB48A6977 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		AF88AD042846CD386709B758 /* Pods-EaseLifeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaseLifeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EaseLifeTests/Pods-EaseLifeTests.release.xcconfig"; sourceTree = "<group>"; };
 		B537C4A51E8BD87300695D21 /* TestApi.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TestApi.html; sourceTree = "<group>"; };
 		B58FA76D1E83B227001EAFF2 /* EaseLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EaseLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,9 +99,16 @@
 		B58FA7911E83B228001EAFF2 /* EaseLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EaseLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58FA7951E83B228001EAFF2 /* EaseLifeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EaseLifeUITests.m; sourceTree = "<group>"; };
 		B58FA7971E83B228001EAFF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7BE55839DD242CAAEE869A6 /* libc++.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		C4448CB78C44439E94AFDB51 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		CFE5C88A5E924CEA8A2731E7 /* libz.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		D17D69506023A0D4AEE8A0AE /* Pods-EaseLifeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaseLifeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EaseLifeTests/Pods-EaseLifeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D645B96B024A4E7D4163A8BD /* Pods-EaseLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaseLife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EaseLife/Pods-EaseLife.debug.xcconfig"; sourceTree = "<group>"; };
+		DA15073CA3F94E7FBB63CB53 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		DAFA7F431ADA86D7B06219C8 /* Pods-EaseLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaseLife.release.xcconfig"; path = "Pods/Target Support Files/Pods-EaseLife/Pods-EaseLife.release.xcconfig"; sourceTree = "<group>"; };
+		E219307C5FF943879D2625D9 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		F01D582772524C4698D518C7 /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNVectorIcons.xcodeproj; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; };
+		FF0F6D89E8404245B2E76354 /* libRNVectorIcons.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNVectorIcons.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +117,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCE1319379A5DBCE478DABC0 /* libPods-EaseLife.a in Frameworks */,
+				5FCF5BCB076644288AFFB147 /* libRNVectorIcons.a in Frameworks */,
+				EC62B0D4795E422680CDA5F1 /* libRealmReact.a in Frameworks */,
+				8221EB9E50C543108413D8D0 /* libc++.tbd in Frameworks */,
+				CAC9D103D3004D20B453981C /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +149,8 @@
 				4E1D0DBDBA6A344557B0A869 /* libPods-EaseLife.a */,
 				86E18BD6E5135E1484C864A6 /* libPods-EaseLifeTests.a */,
 				5CB32841ACBD4C3647952385 /* libPods-EaseLifeUITests.a */,
+				B7BE55839DD242CAAEE869A6 /* libc++.tbd */,
+				CFE5C88A5E924CEA8A2731E7 /* libz.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,6 +168,31 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		6A4D2B18EF764D7395155DEA /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F01D582772524C4698D518C7 /* RNVectorIcons.xcodeproj */,
+				812889F45EE14EE7AF332B38 /* RealmReact.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		B50549201E9F70B40048CDC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B50549241E9F70B40048CDC2 /* libRNVectorIcons.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B50549291E9FA7EA0048CDC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B505492D1E9FA7EA0048CDC2 /* libRealmReact.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		B58FA7641E83B227001EAFF2 = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +202,8 @@
 				B58FA76E1E83B227001EAFF2 /* Products */,
 				0DB829A79A6EAEC7FDEC65B3 /* Pods */,
 				073805780BC5463F8E84C9D9 /* Frameworks */,
+				6A4D2B18EF764D7395155DEA /* Libraries */,
+				C69427DB241745F686E46455 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,6 +258,23 @@
 				B58FA7971E83B228001EAFF2 /* Info.plist */,
 			);
 			path = EaseLifeUITests;
+			sourceTree = "<group>";
+		};
+		C69427DB241745F686E46455 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				167F40C35C5047A9B263B76E /* Entypo.ttf */,
+				6BD7C6852D91402FBEEE202D /* EvilIcons.ttf */,
+				C4448CB78C44439E94AFDB51 /* FontAwesome.ttf */,
+				6F0CCA6AEE284FAB950ABF70 /* Foundation.ttf */,
+				02E4D7D8FB434BC9B7A4A225 /* Ionicons.ttf */,
+				8EBB44D98D424B3CB48A6977 /* MaterialCommunityIcons.ttf */,
+				E219307C5FF943879D2625D9 /* MaterialIcons.ttf */,
+				07B8D4A91503400C8D8F5A04 /* Octicons.ttf */,
+				DA15073CA3F94E7FBB63CB53 /* SimpleLineIcons.ttf */,
+				5F34F32D324D42B590240469 /* Zocial.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +381,16 @@
 			mainGroup = B58FA7641E83B227001EAFF2;
 			productRefGroup = B58FA76E1E83B227001EAFF2 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B50549291E9FA7EA0048CDC2 /* Products */;
+					ProjectRef = 812889F45EE14EE7AF332B38 /* RealmReact.xcodeproj */;
+				},
+				{
+					ProductGroup = B50549201E9F70B40048CDC2 /* Products */;
+					ProjectRef = F01D582772524C4698D518C7 /* RNVectorIcons.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B58FA76C1E83B227001EAFF2 /* EaseLife */,
@@ -295,6 +399,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B50549241E9F70B40048CDC2 /* libRNVectorIcons.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNVectorIcons.a;
+			remoteRef = B50549231E9F70B40048CDC2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B505492D1E9FA7EA0048CDC2 /* libRealmReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRealmReact.a;
+			remoteRef = B505492C1E9FA7EA0048CDC2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B58FA76B1E83B227001EAFF2 /* Resources */ = {
@@ -305,6 +426,16 @@
 				B537C4A61E8BD87300695D21 /* TestApi.html in Resources */,
 				B58FA77D1E83B228001EAFF2 /* Assets.xcassets in Resources */,
 				B58FA77B1E83B228001EAFF2 /* Main.storyboard in Resources */,
+				728B0D8C34504C40A7792210 /* Entypo.ttf in Resources */,
+				9F45F58246DC4BC0B400CBB7 /* EvilIcons.ttf in Resources */,
+				89C7C0E8F62E4C1B9EF43513 /* FontAwesome.ttf in Resources */,
+				B86B0BC642F0482DB6B1E104 /* Foundation.ttf in Resources */,
+				919ECF8E57D84369816C6146 /* Ionicons.ttf in Resources */,
+				464C5387073D4837B6FAEEE8 /* MaterialCommunityIcons.ttf in Resources */,
+				05787BD287914A62B39197EF /* MaterialIcons.ttf in Resources */,
+				FE068327C1914A2E99A186ED /* Octicons.ttf in Resources */,
+				48C16A2F02CF48138432D0A0 /* SimpleLineIcons.ttf in Resources */,
+				91D5339BFFA14B1C9F7C5912 /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,6 +673,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -564,7 +696,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -589,6 +721,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -605,7 +738,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -622,6 +755,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mredrockxxx.EaseLife;
@@ -640,6 +775,8 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mredrockxxx.EaseLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -656,6 +793,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mredrockxxx.EaseLifeTests;
@@ -675,6 +814,8 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mredrockxxx.EaseLifeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -692,6 +833,8 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mredrockxxx.EaseLifeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -708,6 +851,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mredrockxxx.EaseLifeUITests;

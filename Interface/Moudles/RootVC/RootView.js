@@ -68,7 +68,7 @@ class RootView extends Component {
       }
         //  var img = "<img width='16px' height='16px' src='http://i2.sinaimg.cn/dy/main/weather/weatherplugin/wthIco/20_20/" + _f
         //  + "' />";
-      var tq = "今日天气 :　" + this.state.searchString  + " " + jsonObj.s1 + " " + jsonObj.t2 + "℃～" + jsonObj.t1 + "℃ " + jsonObj.d1 + jsonObj.p1 + "级";
+      var tq = "今日天气 :　" + this.state.searchString  + " " + jsonObj.s1 + " " + jsonObj.t2 + "℃～" + jsonObj.t1 + "℃ " + jsonObj.d1 + jsonObj.p1 + "级 "+_f;
 
       this.setState({ message: tq });
     }).catch(error =>
@@ -104,7 +104,7 @@ class RootView extends Component {
 
   // 图层渲染
   render() {
-    var data={src:require('./Resources/timg.jpeg')};
+    var data={src:require('../../Resources/timg.jpeg')};
     console.log(' 开始渲染');
     return (
       <View style={styles.container}>
