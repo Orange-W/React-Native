@@ -19,6 +19,7 @@
 		91D5339BFFA14B1C9F7C5912 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F34F32D324D42B590240469 /* Zocial.ttf */; };
 		9F45F58246DC4BC0B400CBB7 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6BD7C6852D91402FBEEE202D /* EvilIcons.ttf */; };
 		B537C4A61E8BD87300695D21 /* TestApi.html in Resources */ = {isa = PBXBuildFile; fileRef = B537C4A51E8BD87300695D21 /* TestApi.html */; };
+		B5638A6A1EA1033F00D5E89C /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = B5638A691EA1033F00D5E89C /* main.jsbundle */; };
 		B58FA7721E83B227001EAFF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B58FA7711E83B227001EAFF2 /* main.m */; };
 		B58FA7751E83B227001EAFF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B58FA7741E83B227001EAFF2 /* AppDelegate.m */; };
 		B58FA7781E83B227001EAFF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58FA7771E83B227001EAFF2 /* ViewController.m */; };
@@ -83,6 +84,7 @@
 		8EBB44D98D424B3CB48A6977 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		AF88AD042846CD386709B758 /* Pods-EaseLifeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaseLifeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EaseLifeTests/Pods-EaseLifeTests.release.xcconfig"; sourceTree = "<group>"; };
 		B537C4A51E8BD87300695D21 /* TestApi.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TestApi.html; sourceTree = "<group>"; };
+		B5638A691EA1033F00D5E89C /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = main.jsbundle; path = ../../ios/main.jsbundle; sourceTree = "<group>"; };
 		B58FA76D1E83B227001EAFF2 /* EaseLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EaseLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58FA7711E83B227001EAFF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B58FA7731E83B227001EAFF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 		B58FA76F1E83B227001EAFF2 /* EaseLife */ = {
 			isa = PBXGroup;
 			children = (
+				B5638A691EA1033F00D5E89C /* main.jsbundle */,
 				B58FA7731E83B227001EAFF2 /* AppDelegate.h */,
 				B58FA7741E83B227001EAFF2 /* AppDelegate.m */,
 				B58FA7761E83B227001EAFF2 /* ViewController.h */,
@@ -353,7 +356,7 @@
 				TargetAttributes = {
 					B58FA76C1E83B227001EAFF2 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = FYYE36HAH8;
+						DevelopmentTeam = HPM8HVK7C6;
 						ProvisioningStyle = Automatic;
 					};
 					B58FA7851E83B228001EAFF2 = {
@@ -434,6 +437,7 @@
 				464C5387073D4837B6FAEEE8 /* MaterialCommunityIcons.ttf in Resources */,
 				05787BD287914A62B39197EF /* MaterialIcons.ttf in Resources */,
 				FE068327C1914A2E99A186ED /* Octicons.ttf in Resources */,
+				B5638A6A1EA1033F00D5E89C /* main.jsbundle in Resources */,
 				48C16A2F02CF48138432D0A0 /* SimpleLineIcons.ttf in Resources */,
 				91D5339BFFA14B1C9F7C5912 /* Zocial.ttf in Resources */,
 			);
@@ -750,7 +754,7 @@
 			baseConfigurationReference = D645B96B024A4E7D4163A8BD /* Pods-EaseLife.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FYYE36HAH8;
+				DEVELOPMENT_TEAM = HPM8HVK7C6;
 				INFOPLIST_FILE = EaseLife/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -769,7 +773,7 @@
 			baseConfigurationReference = DAFA7F431ADA86D7B06219C8 /* Pods-EaseLife.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FYYE36HAH8;
+				DEVELOPMENT_TEAM = HPM8HVK7C6;
 				INFOPLIST_FILE = EaseLife/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (

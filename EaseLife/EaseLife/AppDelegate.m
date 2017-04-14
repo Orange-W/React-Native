@@ -21,9 +21,10 @@
     
     
     NSURL *jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index.ios" fallbackResource:nil];
+    //[[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index.ios" fallbackResource:nil];
     
     //[NSURL URLWithString:@"http://localhost:8081/index.ios"];
-    //[[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index.ios.js" fallbackResource:nil];
+//    [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index.ios" fallbackResource:nil];
     
     RCTRootView *rootView = [[RCTRootView alloc]
                              initWithBundleURL:jsCodeLocation

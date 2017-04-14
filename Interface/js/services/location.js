@@ -29,8 +29,9 @@ class LocationService {
 
       for (var i = 0; i < defaultLocations.length; i++) {
         var location = defaultLocations[i];
+        log('初始化：定位 api 开始');
         var openWeatherId = await this.getLocationIdFromApi(location.name);
-
+        log('初始化：定位 api 结束-id '+openWeatherId);
         context.write(() => {
           context.create('Location', {
             name: location.name,
@@ -133,7 +134,7 @@ class LocationService {
 
   async getLocationIdFromApi(location: string) {
     var url = `${weatherApiUrl}/find?q=${location},AU&type=accurate&units=metric&appid=${weatherApiKey}`;
-    console.log('地址：'+url);
+    log('初始化：定位地址-> '+url);
     try {
       let response = await fetch(url);
       const result = await response.json();
